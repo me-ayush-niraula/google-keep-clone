@@ -1,0 +1,67 @@
+.navbarDesign {
+  margin-top: 1%;
+}
+
+.navbarRow {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+ion-icon {
+  font-size: 25px;
+  border: solid 2px white;
+  padding: 8%;
+  color: rgb(53, 53, 53);
+}
+
+ion-icon:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 2px rgb(228, 228, 228);
+  background-color: rgb(228, 228, 228);
+  padding: 8%;
+}
+
+.hamburger ion-icon {
+  margin-right: 180px;
+}
+
+.logo1 img {
+  width: 100px;
+  margin-right: 180px;
+}
+
+.navInput input {
+  width: 700px;
+  font-weight: 100;
+  margin-bottom: 2%;
+  margin-left: 20px;
+  background-color: rgba(228, 228, 228, 0.815);
+  border: none;
+  padding: 2%;
+  border-radius: 6px;
+}
+
+.reload ion-icon {
+  margin-left: 210px;
+}
+
+.appOut ion-icon {
+  margin-left: 80px;
+}
+
+.profile img {
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.setting ion-icon {
+  margin-left: 90px;
+}
+
+.stack ion-icon {
+  margin-left: 150px;
+}

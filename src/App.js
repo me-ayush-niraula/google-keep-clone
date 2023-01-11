@@ -1,10 +1,12 @@
 import "./App.css";
-import { Createnote } from "./components/Createnote";
+import { CreateNote } from "./components/CreateNote";
+import { NavbarDesign } from "./components/NavbarDesign";
 
 function App() {
   return (
     <div className="app">
-      <Createnote />
+      <NavbarDesign />
+      <CreateNote />
     </div>
   );
 }
